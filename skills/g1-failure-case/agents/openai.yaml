@@ -1,0 +1,4 @@
+interface:
+  display_name: "G1 Failure Case"
+  short_description: "Turn robotics debugging incidents into reusable failure cases."
+  default_prompt: "Convert this robotics incident into a structured failure case with root cause, fix, prevention, and automation opportunities."

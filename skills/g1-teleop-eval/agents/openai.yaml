@@ -1,0 +1,4 @@
+interface:
+  display_name: "G1 Teleop Eval"
+  short_description: "Evaluate G1 teleoperation system runs."
+  default_prompt: "Evaluate this G1 teleoperation run and produce a concise evidence-based report."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "G1 Teleop Data QC"
+  short_description: "Classify G1 teleoperation data quality for training readiness."
+  default_prompt: "Inspect this G1 teleoperation dataset and output quality grades, bad windows, and training-use recommendations."

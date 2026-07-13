@@ -1,0 +1,4 @@
+interface:
+  display_name: "Robot Teleop Lag Diagnostics"
+  short_description: "Diagnose layered latency in robot teleoperation"
+  default_prompt: "Use $diagnose-robot-teleop-lag to reproduce and isolate lag in this robot teleoperation stack."

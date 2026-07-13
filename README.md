@@ -1,6 +1,6 @@
 # Embodied AI Codex Assets
 
-Personal Codex assets for G1/humanoid teleoperation, data quality control, evaluation, and failure-case reuse.
+Personal Codex assets for humanoid and embodied-AI teleoperation diagnostics, data quality control, evaluation, and failure-case reuse.
 
 ## Contents
 
@@ -9,6 +9,8 @@ skills/
   g1-teleop-eval/       Evaluate teleoperation runs and reports.
   g1-teleop-data-qc/    Classify data quality and training readiness.
   g1-failure-case/      Convert debugging incidents into reusable cases.
+  diagnose-robot-teleop-lag/
+                        Reproduce and isolate layered teleoperation latency.
 agents/
   eval-report-agent.md
   data-qc-agent.md
@@ -53,6 +55,10 @@ Use g1-teleop-data-qc to inspect this dataset and output bad windows, segment gr
 
 ```text
 Use g1-failure-case to turn this debugging incident into a reusable failure case.
+```
+
+```text
+Use diagnose-robot-teleop-lag to instrument this robot teleoperation stack, run a safe layered experiment, and isolate the source of lag.
 ```
 
 ## GitHub Setup

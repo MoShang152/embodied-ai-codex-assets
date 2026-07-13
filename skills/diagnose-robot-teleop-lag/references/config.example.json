@@ -1,0 +1,25 @@
+{
+  "events": {
+    "input": "reader_sample",
+    "output": "pose_output",
+    "publish": "dds_publish",
+    "lag": ["lag_resync", "target_fell_behind_buffer"],
+    "marker": "operator_lag_marker",
+    "pause": ["b_pause", "b_resume"],
+    "mode_switch": "fsm_switch",
+    "recorder_summary": "recorder_summary"
+  },
+  "fields": {
+    "event_time_ns": "event_mono_ns",
+    "source_time_ns": "source_timestamp_ns",
+    "frame_id": "frame_id",
+    "processing_ns": "processing_ns",
+    "compute_ns": "compute_ns",
+    "conversion_ns": "conversion_ns",
+    "old_mode": "old_fsm",
+    "new_mode": "new_fsm",
+    "recorder_dropped": "queue_dropped"
+  },
+  "active_mode": 505,
+  "cycle_budget_ms": 20.0
+}

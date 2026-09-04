@@ -6,6 +6,7 @@ Personal Codex assets for humanoid and embodied-AI teleoperation diagnostics, da
 
 ```text
 skills/
+  harness/               Establish a lightweight project harness.
   g1-teleop-eval/       Evaluate teleoperation runs and reports.
   g1-teleop-data-qc/    Classify data quality and training readiness.
   g1-failure-case/      Convert debugging incidents into reusable cases.
@@ -44,6 +45,10 @@ The script copies `skills/*` into:
 ## Typical Usage
 
 Ask Codex:
+
+```text
+Use $harness to assess this project, propose its L0-L3 harness level, and wait for my confirmation before editing the repository.
+```
 
 ```text
 Use g1-teleop-eval to analyze this teleoperation run and produce an evidence-based report.

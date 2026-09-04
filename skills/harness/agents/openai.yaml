@@ -1,0 +1,7 @@
+interface:
+  display_name: "Harness skill"
+  short_description: "Design a lightweight project harness"
+  default_prompt: "Use $harness to assess this project, propose its L0-L3 harness level, and wait for my confirmation before editing the repository."
+
+policy:
+  allow_implicit_invocation: false
